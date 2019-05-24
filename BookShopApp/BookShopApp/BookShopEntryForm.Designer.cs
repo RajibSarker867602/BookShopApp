@@ -32,17 +32,17 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.nameTextBox = new System.Windows.Forms.TextBox();
-            this.SaveButton = new System.Windows.Forms.Button();
-            this.contactNoTextBox = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.addressTextBox = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.orderComboBox = new System.Windows.Forms.ComboBox();
             this.quantityTextBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.orderComboBox = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.addressTextBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.contactNoTextBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.SaveButton = new System.Windows.Forms.Button();
+            this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.showRichTextBox = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -92,81 +92,25 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Customer Information";
             // 
-            // label1
+            // orderComboBox
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(92, 71);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Name";
-            // 
-            // nameTextBox
-            // 
-            this.nameTextBox.Location = new System.Drawing.Point(149, 65);
-            this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(200, 26);
-            this.nameTextBox.TabIndex = 1;
-            // 
-            // SaveButton
-            // 
-            this.SaveButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.SaveButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.SaveButton.Location = new System.Drawing.Point(199, 251);
-            this.SaveButton.Name = "SaveButton";
-            this.SaveButton.Size = new System.Drawing.Size(92, 39);
-            this.SaveButton.TabIndex = 2;
-            this.SaveButton.Text = "Save";
-            this.SaveButton.UseVisualStyleBackColor = false;
-            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
-            // 
-            // contactNoTextBox
-            // 
-            this.contactNoTextBox.Location = new System.Drawing.Point(149, 97);
-            this.contactNoTextBox.Name = "contactNoTextBox";
-            this.contactNoTextBox.Size = new System.Drawing.Size(200, 26);
-            this.contactNoTextBox.TabIndex = 4;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(54, 100);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 20);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Contact No";
-            // 
-            // addressTextBox
-            // 
-            this.addressTextBox.Location = new System.Drawing.Point(149, 129);
-            this.addressTextBox.Name = "addressTextBox";
-            this.addressTextBox.Size = new System.Drawing.Size(200, 26);
-            this.addressTextBox.TabIndex = 6;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(75, 132);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 20);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Address";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(89, 193);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 20);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Order";
+            this.orderComboBox.FormattingEnabled = true;
+            this.orderComboBox.Items.AddRange(new object[] {
+            "Math",
+            "English",
+            "Bangla",
+            "Art"});
+            this.orderComboBox.Location = new System.Drawing.Point(146, 185);
+            this.orderComboBox.Name = "orderComboBox";
+            this.orderComboBox.Size = new System.Drawing.Size(200, 28);
+            this.orderComboBox.TabIndex = 3;
             // 
             // quantityTextBox
             // 
             this.quantityTextBox.Location = new System.Drawing.Point(146, 219);
             this.quantityTextBox.Name = "quantityTextBox";
             this.quantityTextBox.Size = new System.Drawing.Size(200, 26);
-            this.quantityTextBox.TabIndex = 10;
+            this.quantityTextBox.TabIndex = 4;
             // 
             // label6
             // 
@@ -177,23 +121,74 @@
             this.label6.TabIndex = 9;
             this.label6.Text = "Quantity";
             // 
-            // orderComboBox
+            // label5
             // 
-            this.orderComboBox.FormattingEnabled = true;
-            this.orderComboBox.Items.AddRange(new object[] {
-            "A Golden Age",
-            "Brick Lane (Paperback) ",
-            "The Newlyweds",
-            "The Bones of Grace",
-            "A History of Bangladesh",
-            "In the Light of What We Know",
-            "The Storm (ebook) ",
-            "Djinn City (Paperback) ",
-            "Corner Shop (Hardcover) "});
-            this.orderComboBox.Location = new System.Drawing.Point(146, 185);
-            this.orderComboBox.Name = "orderComboBox";
-            this.orderComboBox.Size = new System.Drawing.Size(200, 28);
-            this.orderComboBox.TabIndex = 11;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(89, 193);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(49, 20);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Order";
+            // 
+            // addressTextBox
+            // 
+            this.addressTextBox.Location = new System.Drawing.Point(149, 129);
+            this.addressTextBox.Name = "addressTextBox";
+            this.addressTextBox.Size = new System.Drawing.Size(200, 26);
+            this.addressTextBox.TabIndex = 2;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(75, 132);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(68, 20);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Address";
+            // 
+            // contactNoTextBox
+            // 
+            this.contactNoTextBox.Location = new System.Drawing.Point(149, 97);
+            this.contactNoTextBox.Name = "contactNoTextBox";
+            this.contactNoTextBox.Size = new System.Drawing.Size(200, 26);
+            this.contactNoTextBox.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(54, 100);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(89, 20);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Contact No";
+            // 
+            // SaveButton
+            // 
+            this.SaveButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.SaveButton.ForeColor = System.Drawing.SystemColors.Control;
+            this.SaveButton.Location = new System.Drawing.Point(146, 251);
+            this.SaveButton.Name = "SaveButton";
+            this.SaveButton.Size = new System.Drawing.Size(200, 39);
+            this.SaveButton.TabIndex = 5;
+            this.SaveButton.Text = "Save";
+            this.SaveButton.UseVisualStyleBackColor = false;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
+            // 
+            // nameTextBox
+            // 
+            this.nameTextBox.Location = new System.Drawing.Point(149, 65);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.Size = new System.Drawing.Size(200, 26);
+            this.nameTextBox.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(92, 71);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Name";
             // 
             // showRichTextBox
             // 

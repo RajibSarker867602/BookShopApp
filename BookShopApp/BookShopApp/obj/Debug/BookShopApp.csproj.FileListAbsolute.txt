@@ -8,3 +8,13 @@ D:\ASP.NET Work\BITM Course Files\2nd\BookShopApp\BookShopApp\obj\Debug\BookShop
 D:\ASP.NET Work\BITM Course Files\2nd\BookShopApp\BookShopApp\obj\Debug\BookShopApp.exe
 D:\ASP.NET Work\BITM Course Files\2nd\BookShopApp\BookShopApp\obj\Debug\BookShopApp.pdb
 D:\ASP.NET Work\BITM Course Files\2nd\BookShopApp\BookShopApp\obj\Debug\BookShopApp.BookShopEntryForm.resources
+D:\ASP.NET Work\BITM Course Files\GIT Files\BookShopApp\BookShopApp\BookShopApp\bin\Debug\BookShopApp.exe.config
+D:\ASP.NET Work\BITM Course Files\GIT Files\BookShopApp\BookShopApp\BookShopApp\bin\Debug\BookShopApp.exe
+D:\ASP.NET Work\BITM Course Files\GIT Files\BookShopApp\BookShopApp\BookShopApp\bin\Debug\BookShopApp.pdb
+D:\ASP.NET Work\BITM Course Files\GIT Files\BookShopApp\BookShopApp\BookShopApp\obj\Debug\BookShopApp.csprojAssemblyReference.cache
+D:\ASP.NET Work\BITM Course Files\GIT Files\BookShopApp\BookShopApp\BookShopApp\obj\Debug\BookShopApp.BookShopEntryForm.resources
+D:\ASP.NET Work\BITM Course Files\GIT Files\BookShopApp\BookShopApp\BookShopApp\obj\Debug\BookShopApp.Properties.Resources.resources
+D:\ASP.NET Work\BITM Course Files\GIT Files\BookShopApp\BookShopApp\BookShopApp\obj\Debug\BookShopApp.csproj.GenerateResource.cache
+D:\ASP.NET Work\BITM Course Files\GIT Files\BookShopApp\BookShopApp\BookShopApp\obj\Debug\BookShopApp.csproj.CoreCompileInputs.cache
+D:\ASP.NET Work\BITM Course Files\GIT Files\BookShopApp\BookShopApp\BookShopApp\obj\Debug\BookShopApp.exe
+D:\ASP.NET Work\BITM Course Files\GIT Files\BookShopApp\BookShopApp\BookShopApp\obj\Debug\BookShopApp.pdb
